@@ -9,7 +9,7 @@
 npm install
 
 <<<<<<< HEAD
-我是张自强，sixsixsixsixsixsixsixsixsixsixsixsixsixsix上的是的撒多所多所多所多
+我是工厂章 自强，sixsixsixsixsixsixsixsixsixsixsixsixsixsix上的是的撒多所多所多所多
 =======
 # serve with hot reload at localhost:8080
 npm run dev
