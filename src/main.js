@@ -1,8 +1,7 @@
-import Vue from 'vue'
-import App from './components/header/Header.vue'
-import router from './router'
+import Vue from 'vue';
+import router from './router';
+import App from './App.vue';
 import FastClick from 'fastclick';
-import VueAwesomeSwiper from 'vue-awesome-swiper';
 
 FastClick.attach(document.body);
 
