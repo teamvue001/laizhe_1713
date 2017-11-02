@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from './app/App'
+import App from './components/header/Header.vue'
 import router from './router'
 import FastClick from 'fastclick';
 import VueAwesomeSwiper from 'vue-awesome-swiper';
