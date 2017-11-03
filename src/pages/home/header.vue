@@ -5,7 +5,7 @@
 			    		<i class="iconfont icon-qunawanxianjiantouzuo"></i>
 			    	</a>
 			    	<div class="header-title">
-			    		<i class="iconfont icon-fangdajing1"></i>	
+			    		<i class="iconfont icon-fangdajing1"></i>
 			    		<span class="single-line">输入城市/景点/游玩主题</span>
 			    	</div>
 			    	<div class="header-right">
@@ -16,13 +16,13 @@
 			    			</a>
 			    	</div>
 		  	</header>
-	    	
+
 	  </div>
 </template>
 
 <script>
 	export default {
-	  
+
 	}
 </script>
 
@@ -34,6 +34,7 @@
 			background:#00bcd4;
 			text-align:center;
 			color:#fff;
+      overflow:hidden;
 		}
 		.header-left{
 			display:inline-block;
