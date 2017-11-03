@@ -1,22 +1,22 @@
 <template>
 	<div>
       <ul class="position">
-        <li class="positionLeft positionLi">
+        <li class="positionAddress positionLi">
           <p class="posiText">
             <i class="iconfont icon-dizhi"></i>
             附近</p>
         </li>
-        <li class="positionRight positionLi">
+        <li class="positionPrice positionLi">
           <p class="posiText">
             <i class="iconfont icon-duoyuyan"></i>
             5折泡温泉</p>
         </li>
       </ul>
       <ul class="advert">
-        <li class="advertLeft advertLi">
+        <li class="advertPrice advertLi">
           <a href="#"></a>
         </li>
-        <li class="advertRight advertLi"></li>
+        <li class="advertTicket advertLi"></li>
       </ul>
 	</div>
 </template>
@@ -45,7 +45,7 @@
     text-align: center;
     line-height: 1rem;
   }
-  .positionLeft{
+  .positionAddress{
     width: 49.6%;
     border-right: 1px solid #eee;
   }
@@ -68,12 +68,12 @@
     width:50%;
     height:1.4rem;
   }
-  .advertLeft{
+  .advertPrice{
     width:49.6%;
     border-right: 1px solid #eee;
     background:url(http://img1.qunarzz.com/piao/fusion/1710/a2/e395615b16fb1302.png) center center no-repeat;background-size:auto 100%;
   }
-  .advertRight{
+  .advertTicket{
     background:url(http://img1.qunarzz.com/piao/fusion/1710/54/1685d2108b652302.png) center center no-repeat;background-size:auto 100%;
   }
 </style>
