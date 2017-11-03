@@ -12,7 +12,7 @@
 
         </swiper>
         <ScenicController></ScenicController>
-
+        <Hot></Hot>
     </div>
 
 </template>
@@ -20,9 +20,8 @@
 <script>
     import { swiper, swiperSlide } from 'vue-awesome-swiper';
     import ScenicController from './scenicSpot/index-scenic-controller.vue';
+    import Hot from "./hot/index-hot.vue";
     import axios from "axios";
-
-
 
 
     var id = 1;
@@ -31,7 +30,8 @@
         components: {
             swiper,
             swiperSlide,
-            ScenicController
+            ScenicController,
+            Hot
         },
         data() {
             return {

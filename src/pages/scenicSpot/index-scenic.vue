@@ -8,15 +8,10 @@
 
 <script>
 
-    import { swiper, swiperSlide } from 'vue-awesome-swiper';
-    var id = 1;
-
-
     export default {
         name: "",
         props : ["dataList"],
-        data() {return ({})}
-
+        data() {return({})}
     }
 </script>
 

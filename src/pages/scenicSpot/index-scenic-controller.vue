@@ -16,7 +16,7 @@
     import axios from "axios";
 
     export default {
-        name: '',
+        name: 'scenicControl',
         components: {
             swiper,
             swiperSlide,
