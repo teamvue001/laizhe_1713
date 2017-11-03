@@ -11,7 +11,6 @@
 
 	export default {
 	    components:{
-	        "index-header" : header,
             "weekend-trip" : weekend
         }
 	}

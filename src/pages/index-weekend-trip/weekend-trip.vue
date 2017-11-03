@@ -18,7 +18,7 @@
             </ul>
         </div>
         <div class="mp-price-notes">
-            <span class="mp-price-desc-icon"></span>
+            <span class="mp-price-desc-icon iconfont icon-tanhao"></span>
             <div class="mp-price-desc-info">
                 <span class="mp-price-desc-highlight">票面价</span>
                 是指通过景区指定窗口售卖的纸质门票上标注的价格
