@@ -1,17 +1,17 @@
 <template>
   <header class="header">
-      <a class="header-left">
-        <i class="iconfont icon-qunawanxianjiantouzuo"></i>
+      <a class="header-back">
+          <i class="iconfont icon-qunawanxianjiantouzuo"></i>
       </a>
-      <div class="header-title">
+      <div class="header-input">
           <i class="iconfont icon-fangdajing1"></i>
           <span class="header-where">输入城市/景点/游玩主题</span>
       </div>
-      <div class="header-right">
-        <span class="header-Choose-city">
-          <em class="nav-city">北京</em>
-          <i class="iconfont icon-f11-copy"></i>
-        </span>
+      <div class="header-city">
+          <span class="header-Choose-city">
+              <em class="nav-city">北京</em>
+              <i class="iconfont icon-f11-copy"></i>
+          </span>
       </div>
   </header>
 </template>
@@ -23,7 +23,7 @@
 </script>
 
 <style scoped>
-  .header {
+  .header{
       position: relative;
       width: 100%;
       height: .88rem;
@@ -31,7 +31,7 @@
       text-align: center;
       color: #fff;
   }
-  .header-left {
+  .header-back{
       float: left;
       width: .4rem;
       height: .88rem;
@@ -41,7 +41,7 @@
       text-align: left;
       color: #fff;
   }
-  .header-title{
+  .header-input{
       position: absolute;
       width: 68%;
       top: .14rem;
@@ -52,7 +52,7 @@
       border-radius: .06rem;
       color: #ccc;
   }
-  .header-right{
+  .header-city{
       float: right;
       width: 1.6rem;
       line-height: .87rem ;
