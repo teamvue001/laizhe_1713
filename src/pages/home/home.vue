@@ -1,16 +1,19 @@
 <template>
 	<div>
-		<index-header />
+
+        <weekend-trip />
 	</div>
 </template>
 
 <script>
-	import header from "./header.vue";
-	
+
+	import weekend from "../index-weekend-trip/weekend-trip";
+
 	export default {
-	  components:{
-	  	"index-header" : header
-	  }
+	    components:{
+	        "index-header" : header,
+            "weekend-trip" : weekend
+        }
 	}
 </script>
 
