@@ -47,7 +47,7 @@
 </script>
 
 <style>
-    @import "../../node_modules/swiper/dist/css/swiper.css";
+    @import "../../../node_modules/swiper/dist/css/swiper.css";
     .imgWrap{
         width: 100%;
         height: 0;
