@@ -7,7 +7,7 @@
 
 <script>
 	import header from "./header.vue";
-	import positionAdvert from "./position_advert.vue";
+	import positionAdvert from "../position/position_advert.vue";
 
 	export default {
 	  components:{
