@@ -97,13 +97,14 @@
 <style scoped>
 
     .weekend-trip {
-        overflow: hidden;
+        /*overflow: hidden;*/
     }
     .mp-modtitle {
         height: .8rem;
         padding-left: .26rem;
         line-height: .8rem;
         color: #212121;
+        text-align: left;
     }
     .mp-product-item {
         position: relative;
@@ -136,6 +137,7 @@
         color: #212121;
         font-size: .28rem;
         line-height: .48rem;
+        text-align: left;
         white-space: nowrap;
         text-overflow: ellipsis;
     }
@@ -145,6 +147,7 @@
         color: #616161;
         font-size: .24rem;
         line-height: .42rem;
+        text-align: left;
         white-space: nowrap;
         text-overflow: ellipsis;
     }
@@ -158,14 +161,15 @@
     }
     .mp-price-desc-icon {
         width: .24rem;
-        display: block;
         float: left;
         line-height: .32rem;
     }
     .mp-price-desc-info {
-        margin-left: .3rem;
+        float: left;
+        margin-left: .1rem;
     }
     .mp-price-desc-highlight {
         font-weight: bold;
+        text-align: left;
     }
 </style>
