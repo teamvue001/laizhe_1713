@@ -3,7 +3,9 @@
         <swiper :options="swiperOption" >
             <!-- slides -->
             <swiper-slide v-for="item in srcList" :key="item.index">
-                <img class="swiper-item" :src="item.src" alt="img1">
+                <div class="imgWrap">
+                    <img class="swiper-item" :src="item.src" alt="img1">
+                </div>
             </swiper-slide>
             <!-- Optional controls -->
             <div class="swiper-pagination"  slot="pagination"></div>
@@ -46,9 +48,13 @@
 
 <style>
     @import "../../node_modules/swiper/dist/css/swiper.css";
+    .imgWrap{
+        width: 100%;
+        height: 0;
+        padding-bottom: 31.25%;
+    }
     .swiper-item{
         width:100%;
-        height:31.25%;
     }
 </style>
 
