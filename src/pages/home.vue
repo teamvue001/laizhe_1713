@@ -7,7 +7,7 @@
 
 <script>
 
-	import weekend from "../index-weekend-trip/weekend-trip";
+	import weekend from "./weekendTrip/weekend-trip";
 
 	export default {
 	    components:{
