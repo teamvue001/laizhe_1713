@@ -30,7 +30,7 @@
             }
         },
         mounted () {
-            axios.get("/static/index.json").then((res) => {
+            axios.get("/static/home/index.json").then((res) => {
                 this.srcList = res.data.data.srcList;
                 this.dataList = res.data.data.dataList;
                 this.hotList = res.data.data.hotList;
