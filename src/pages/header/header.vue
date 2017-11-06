@@ -3,6 +3,9 @@
         <a class="header-back">
             <i class="iconfont icon-huise"></i>
         </a>
+        <router-link to="/login">
+            to login
+        </router-link>
         <div class="header-input">
             <i class="iconfont icon-sousuo"></i>
             <span class="header-where">输入城市/景点/游玩主题</span>
@@ -17,6 +20,7 @@
 </template>
 
 <script>
+
     export default {
 
     }
