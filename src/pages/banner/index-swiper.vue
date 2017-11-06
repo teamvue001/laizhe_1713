@@ -39,9 +39,7 @@
             }
         },
         mounted () {
-            axios.get("http://localhost:8080/swiper").then((res) => {
-                this.srcList = res.data.data.srcList; //这里没有问题
-            })
+            
         }
   }
 </script>

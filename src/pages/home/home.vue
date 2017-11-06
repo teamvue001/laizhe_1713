@@ -1,24 +1,22 @@
 <template>
 	<div id="root">
     <index-header ></index-header>
-    <index-position-adverted ></index-position-adverted>
+    <index-activity-adverted ></index-activity-adverted>
 	</div>
 </template>
 
 <script>
 	import header from "./header.vue";
-	import positionAdvert from "../position/position_advert.vue";
+	import activityAdvert from "../activity/activity.vue";
 
 	export default {
 	  components:{
 	  	"index-header" : header,
-	  	"index-position-adverted" : positionAdvert
+	  	"index-activity-adverted" : activityAdvert
 	  }
 	}
 </script>
 
 <style scoped>
-  #root{
-    background: #f5f5f5;
-  }
+
 </style>

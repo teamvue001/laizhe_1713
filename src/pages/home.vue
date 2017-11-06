@@ -4,6 +4,7 @@
         <indexSwiper></indexSwiper>
         <indexScenicSwiper></indexScenicSwiper>
         <indexHot></indexHot>
+        <indexPositionAdvert></indexPositionAdvert>
     </div>
 </template>
 
@@ -12,13 +13,15 @@
     import swiper from "./banner/index-swiper.vue";
     import scenic from "./scenicSpot/index-scenic-controller.vue";
     import hot from "./hot/index-hot.vue";
+    import positionAdvert from "./activity/activity.vue"
     export default{
         name : "Home",
         components: {
             indexHeader: header,
             indexSwiper: swiper,
             indexScenicSwiper: scenic,
-            indexHot: hot
+            indexHot: hot,
+            indexPositionAdvert:positionAdvert
         }
     }
 </script>

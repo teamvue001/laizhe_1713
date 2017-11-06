@@ -33,10 +33,7 @@
             }
         },
         mounted() {
-            axios.get("http://localhost:8080/hot").then((res) => {
-//                console.log(res.data.data);
-                this.dataList = res.data.data;
-            })
+
         }
     }
 </script>
@@ -59,7 +56,7 @@
         border-bottom: 1px solid #e0e0e0;
     }
     .hot-item .hot-imgContainer{
-        /*position: absolute;*/
+        /*activity: absolute;*/
         /*top: .24rem;*/
         /*left: .24rem;*/
         width: 1.4rem;

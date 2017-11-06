@@ -32,24 +32,7 @@
             }
         },
         mounted () {
-            axios.get("http://localhost:8080/swiper").then((res) => {
-                const length = res.data.data.dataList.length;
-                const number = Math.ceil(length/8);
-                let list = res.data.data.dataList;
-                for(var i=0; i<number; i++) {
-                    if(i !== number-1){
-                        this.scenicList.push({
-                            item : list.splice(0, 8),
-                            id : i
-                        });
-                    }else{
-                        this.scenicList.push({
-                            item : list.splice(0, list.length),
-                            id : i
-                        });
-                    }
-                }
-            })
+            
         }
     }
 
