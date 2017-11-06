@@ -1,4 +1,5 @@
 <template>
+	<router-link to="/page"></router-link>
     <ul class="scenicContainer">
         <li class="scenicItem" v-for="item in dataList" :key="item.id">
             <img :src="item.src" alt="image">
