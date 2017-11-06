@@ -23,8 +23,6 @@
 </template>
 
 <script>
-    import axios from "axios";
-
     export default {
         name: "hot",
         props: ['dataList']
@@ -49,9 +47,6 @@
         border-bottom: 1px solid #e0e0e0;
     }
     .hot-item .hot-imgContainer{
-        /*position: absolute;*/
-        /*top: .24rem;*/
-        /*left: .24rem;*/
         width: 1.4rem;
         height: 1.4rem;
         float: left;
@@ -59,7 +54,6 @@
     .hot-item .hot-details{
         float: left;
         margin-left: .15rem;
-        /*background: orange;*/
         width: 6.2rem;
         height: 1.4rem;
         text-align: left;

@@ -16,7 +16,6 @@
 <script>
     import { swiper, swiperSlide } from 'vue-awesome-swiper';
 
-
     var id = 1;
     export default {
         name: 'banner',
@@ -36,9 +35,6 @@
                   observeParents: true,
                 }
             }
-        },
-        mounted() {
-            console.log(this.$props);
         }
   }
 </script>

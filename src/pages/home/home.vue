@@ -27,12 +27,10 @@
                 srcList : [],
                 dataList : [],
                 hotList : [],
-
             }
         },
         mounted () {
             axios.get("/static/index.json").then((res) => {
-                console.log(res.data.data);
                 this.srcList = res.data.data.srcList;
                 this.dataList = res.data.data.dataList;
                 this.hotList = res.data.data.hotList;

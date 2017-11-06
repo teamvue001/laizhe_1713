@@ -12,7 +12,6 @@
     import { swiper, swiperSlide } from 'vue-awesome-swiper';
     import Scenic from './index-scenic.vue';
 
-
     export default {
         name: 'scenicControl',
         props: ['DataList'],
@@ -30,10 +29,6 @@
                     observeParents: true
                 }
             }
-        },
-
-        mounted() {
-
         },
         computed : {
             scenicList : function() {
@@ -57,8 +52,6 @@
                 return tempList;
             }
         }
-
-
     }
 
 </script>
