@@ -25,19 +25,9 @@
 <script>
     import axios from "axios";
 
-    export default{
-        name : "hot",
-        data : function() {
-            return {
-                dataList : []
-            }
-        },
-        mounted() {
-            axios.get("http://localhost:8080/hot").then((res) => {
-//                console.log(res.data.data);
-                this.dataList = res.data.data;
-            })
-        }
+    export default {
+        name: "hot",
+        props: ['dataList']
     }
 </script>
 

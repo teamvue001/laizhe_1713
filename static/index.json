@@ -1,0 +1,125 @@
+{
+	"ret" : true,
+	"data" :{
+		"hotList" : [{
+			"path" : "/details/1",
+			"imgSrc" : "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+			"detailsTitle" : "故宫",
+			"detailsContent" : "东方宫殿建筑代表，世界宫殿建筑典范",
+			"priceNumber" : 40,
+			"index" : 1
+		},{
+			"path" : "/details/2",
+			"imgSrc" : "http://img1.qunarzz.com/sight/p0/1708/2b/2b3b94de99c0a425a3.img.jpg_140x140_97813766.jpg",
+			"detailsTitle" : "八达岭长城",
+			"detailsContent" : "不到长城非好汉",
+			"priceNumber" : 25,
+			"index" : 2
+		},{
+			"path" : "/details/3",
+			"imgSrc" : "http://img1.qunarzz.com/sight/p0/1505/d2/d274c92de14c93da.water.jpg_140x140_e20be8e0.jpg",
+			"detailsTitle" : "颐和园",
+			"detailsContent" : "保存完整的一座皇家行宫御苑",
+			"priceNumber" : 1,
+			"index" : 3
+		},{
+            "path" : "/details/1",
+            "imgSrc" : "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+            "detailsTitle" : "故宫",
+            "detailsContent" : "东方宫殿建筑代表，世界宫殿建筑典范",
+            "priceNumber" : 40,
+            "index" : 4
+        },{
+            "path" : "/details/2",
+            "imgSrc" : "http://img1.qunarzz.com/sight/p0/1708/2b/2b3b94de99c0a425a3.img.jpg_140x140_97813766.jpg",
+            "detailsTitle" : "八达岭长城",
+            "detailsContent" : "不到长城非好汉",
+            "priceNumber" : 25,
+            "index" : 5
+        },{
+            "path" : "/details/3",
+            "imgSrc" : "http://img1.qunarzz.com/sight/p0/1505/d2/d274c92de14c93da.water.jpg_140x140_e20be8e0.jpg",
+            "detailsTitle" : "颐和园",
+            "detailsContent" : "保存完整的一座皇家行宫御苑",
+            "priceNumber" : 1,
+            "index" : 6
+        }],
+		"srcList" : [{
+                    "src" :  "http://img1.qunarzz.com/piao/fusion/1710/f5/57137c621d75ba02.jpg_640x200_b984ddf7.jpg",
+                    "index" : 1
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1609/f3/52a119dbed871902.jpg_640x200_b4573df8.jpg",
+                    "index" : 2
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1711/b3/66f7230d9ad6e002.jpg_640x200_077e61ee.jpg",
+                    "index" : 3
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1609/f3/52a119dbed871902.jpg_640x200_b4573df8.jpg",
+                    "index" : 2
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1711/b3/66f7230d9ad6e002.jpg_640x200_077e61ee.jpg",
+                    "index" : 3
+                }],
+        "dataList" : [{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 1
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 2
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 3
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 4
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 5
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 6
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 7
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 8
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 9
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 10
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 11
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 12
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 13
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 14
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 15
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 16
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 17
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 18
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 19
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+                    "id" : 20
+                }]
+	}
+}

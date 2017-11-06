@@ -16,7 +16,7 @@
 </script>
 
 <style scoped>
-    @import "../../../node_modules/swiper/dist/css/swiper.css";
+    @import "../../../../../node_modules/swiper/dist/css/swiper.css";
     .scenicContainer{
         height: 3.7rem;
     }
