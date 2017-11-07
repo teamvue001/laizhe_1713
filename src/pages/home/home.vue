@@ -10,11 +10,11 @@
 </template>
 
 <script>
+    import axios from "axios";
     import header from "./components/header/header.vue";
     import swiper from "./components/banner/index-swiper.vue";
     import scenic from "./components/scenicSpot/index-scenic-controller.vue";
     import hot from "./components/hot/index-hot.vue";
-    import axios from "axios";
     import activity from"./components/activity/activity"
     import weekendTrip from"./components/weekendTrip/weekend-trip"
 
