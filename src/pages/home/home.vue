@@ -2,6 +2,7 @@
     <div>
         <indexHeader></indexHeader>
         <indexSwiper :srcList="srcList"></indexSwiper>
+        <indexActivity></indexActivity>
         <indexScenicSwiper :DataList="dataList"></indexScenicSwiper>
         <indexHot :dataList="hotList"></indexHot>
     </div>
@@ -13,6 +14,7 @@
     import scenic from "./components/scenicSpot/index-scenic-controller.vue";
     import hot from "./components/hot/index-hot.vue";
     import axios from "axios";
+    import activity from"./components/activity/activity"
 
     export default{
         name : "Home",
@@ -20,7 +22,8 @@
             indexHeader: header,
             indexSwiper: swiper,
             indexScenicSwiper: scenic,
-            indexHot: hot
+            indexHot: hot,
+            indexActivity: activity
         },
         data() {
             return {
