@@ -1,4 +1,5 @@
 <template>
+
     <div>
         <indexHeader></indexHeader>
         <indexSwiper :srcList="srcList"></indexSwiper>
@@ -6,6 +7,7 @@
         <indexActivity></indexActivity>
         <indexHot :dataList="hotList"></indexHot>
         <indexweekendTrip :weekendList="weekendList"></indexweekendTrip>
+        <indexFooter />
     </div>
 </template>
 
@@ -17,6 +19,8 @@
     import axios from "axios";
     import activity from"./components/activity/activity"
     import weekendTrip from"./components/weekendTrip/weekend-trip"
+    import footer from "./components/footer/footer.vue";
+
 
     export default{
         name : "Home",
@@ -26,7 +30,8 @@
             indexScenicSwiper: scenic,
             indexHot: hot,
             indexActivity: activity,
-            indexweekendTrip: weekendTrip
+            indexweekendTrip: weekendTrip,
+            indexFooter: footer
         },
         data() {
             return {
@@ -45,6 +50,7 @@
             })
         }
     }
+
 </script>
 
 <style>
