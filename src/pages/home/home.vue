@@ -2,8 +2,8 @@
     <div>
         <indexHeader></indexHeader>
         <indexSwiper :srcList="srcList"></indexSwiper>
-        <indexActivity></indexActivity>
         <indexScenicSwiper :DataList="dataList"></indexScenicSwiper>
+        <indexActivity></indexActivity>
         <indexHot :dataList="hotList"></indexHot>
         <indexweekendTrip :weekendList="weekendList"></indexweekendTrip>
     </div>
@@ -48,5 +48,6 @@
 </script>
 
 <style>
+
 
 </style>
