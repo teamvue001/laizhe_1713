@@ -19,7 +19,7 @@
     import axios from "axios";
     import activity from"./components/activity/activity"
     import weekendTrip from"./components/weekendTrip/weekend-trip"
-    import footer from "./footer/footer.vue";
+    import footer from "./components/footer/footer.vue";
 
 
     export default{
