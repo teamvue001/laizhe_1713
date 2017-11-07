@@ -1,13 +1,15 @@
 <template>
     <ul class="scenicContainer">
         <li class="scenicItem" v-for="item in dataList" :key="item.id">
-            <img :src="item.src" alt="image">
+            <router-link :to="item.href">
+                <img :src="item.src" alt="image">
+                <p class="scenicItemText">{{item.name}}</p>
+            </router-link>
         </li>
     </ul>
 </template>
 
 <script>
-
     export default {
         name: "",
         props : ["dataList"],
@@ -28,9 +30,12 @@
         text-align: center;
     }
     .scenicItem img{
-
-        border-radius: 20px;
+        border-radius: .2rem;
         width: .66rem;
         height: .66rem;
+    }
+    .scenicItemText{
+        margin-top: .2rem;
+        color: #333;
     }
 </style>
