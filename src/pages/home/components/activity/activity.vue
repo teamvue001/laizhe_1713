@@ -17,18 +17,16 @@
         <ul class="advert">
             <router-link to="/home">
                 <li class="advertPrice advertLi">
-                    <a class="advertLeft" href="javascript:;">
-                        <p class="advertLeftName">精选温泉</p>
-                        <p class="advertLeftPrice">5折开泡</p>
-                    </a>
+                    <p class="advertLeftName">精选温泉</p>
+                    <p class="advertLeftPrice">5折开泡</p>
+                    <img class="advertLeftImg" src="./img/11.png" alt="">
                 </li>
             </router-link>
             <router-link to="/home">
                 <li class="advertTicket advertLi">
-                    <a class="advertRight" href="javascript:;">
-                        <p class="advertRightName">金秋大促</p>
-                        <p class="advertRightPrice">门票1元起</p>
-                    </a>
+                    <p class="advertRightName">金秋大促</p>
+                    <p class="advertRightPrice">门票1元起</p>
+                    <img class="advertRightImg" src="./img/22.png" alt="">
                 </li>
             </router-link>
         </ul>
@@ -86,21 +84,12 @@
         width: 50%;
         height: 1.4rem;
     }
-    .advertLeft{
+    .advertLeftImg,.advertRightImg{
         position: absolute;
-        left: 0;
-        top: 0;
-        width: 50%;
-        height: 100%;
-        background: #fff;
-    }
-    .advertRight{
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 50%;
-        height: 100%;
-        background: #fff;
+        right:5%;
+        top:8%;
+        width:1.5rem;
+        height:1rem;
     }
     .advertLeftName,.advertRightName{
         margin-top: .35rem;
@@ -111,17 +100,16 @@
         color: #333;
     }
     .advertLeftName,.advertRightName,.advertLeftPrice,.advertRightPrice{
+        width:50%;
+        margin-left: .2rem;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         font-size: 0.28rem;
+        margin-bottom: .2rem;
     }
     .advertPrice{
         width: 49.6%;
         border-right: 1px solid #eee;
-        background: url(http://img1.qunarzz.com/piao/fusion/1710/a2/e395615b16fb1302.png) center center no-repeat;background-size:auto 100%;
-    }
-    .advertTicket{
-        background: url(http://img1.qunarzz.com/piao/fusion/1710/54/1685d2108b652302.png) center center no-repeat;background-size:auto 100%;
     }
 </style>

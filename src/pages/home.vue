@@ -2,9 +2,9 @@
     <div>
         <indexHeader></indexHeader>
         <indexSwiper></indexSwiper>
+        <indexActivity></indexActivity>
         <indexScenicSwiper></indexScenicSwiper>
         <indexHot></indexHot>
-        <indexPositionAdvert></indexPositionAdvert>
     </div>
 </template>
 
@@ -21,7 +21,7 @@
             indexSwiper: swiper,
             indexScenicSwiper: scenic,
             indexHot: hot,
-            indexPositionAdvert:positionAdvert
+            indexActivity: activity
         }
     }
 </script>
