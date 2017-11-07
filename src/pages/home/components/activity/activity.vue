@@ -86,10 +86,10 @@
     }
     .advertLeftImg,.advertRightImg{
         position: absolute;
-        right:5%;
-        top:8%;
-        width:1.5rem;
-        height:1rem;
+        right: 5%;
+        top: 8%;
+        width: 1.5rem;
+        height: 1rem;
     }
     .advertLeftName,.advertRightName{
         margin-top: .35rem;
@@ -100,7 +100,7 @@
         color: #333;
     }
     .advertLeftName,.advertRightName,.advertLeftPrice,.advertRightPrice{
-        width:50%;
+        width: 50%;
         margin-left: .2rem;
         white-space: nowrap;
         overflow: hidden;
