@@ -5,7 +5,7 @@
 			    		<i class="iconfont icon-qunawanxianjiantouzuo"></i>
 			    	</a>
 			    	<div class="header-title">
-			    		<i class="iconfont icon-fangdajing1"></i>	
+			    		<i :name="item.src" class="iconfont icon-fangdajing1"></i>	
 			    		<span class="single-line">输入城市/景点/游玩主题</span>
 			    	</div>
 			    	<div class="header-right">
