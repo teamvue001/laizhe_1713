@@ -1,0 +1,50 @@
+<template>
+    <div>
+        <indexHeader></indexHeader>
+        <indexSwiper :srcList="srcList"></indexSwiper>
+        <indexActivity></indexActivity>
+        <indexScenicSwiper :DataList="dataList"></indexScenicSwiper>
+        <indexHot :dataList="hotList"></indexHot>
+        <indexweekendTrip></indexweekendTrip>
+    </div>
+</template>
+
+<script>
+    import header from "./components/header/header.vue";
+    import swiper from "./components/banner/index-swiper.vue";
+    import scenic from "./components/scenicSpot/index-scenic-controller.vue";
+    import hot from "./components/hot/index-hot.vue";
+    import axios from "axios";
+    import activity from"./components/activity/activity"
+    import weekendTrip from"./components/weekendTrip/weekend-trip"
+
+    export default{
+        name : "Home",
+        components: {
+            indexHeader: header,
+            indexSwiper: swiper,
+            indexScenicSwiper: scenic,
+            indexHot: hot,
+            indexActivity: activity,
+            indexweekendTrip: weekendTrip
+        },
+        data() {
+            return {
+                srcList : [],
+                dataList : [],
+                hotList : [],
+            }
+        },
+        mounted () {
+            axios.get("/static/index.json").then((res) => {
+                this.srcList = res.data.data.srcList;
+                this.dataList = res.data.data.dataList;
+                this.hotList = res.data.data.hotList;
+            })
+        }
+    }
+</script>
+
+<style>
+
+</style>

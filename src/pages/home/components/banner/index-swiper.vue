@@ -15,16 +15,15 @@
 
 <script>
     import { swiper, swiperSlide } from 'vue-awesome-swiper';
-    import axios from "axios";
 
     var id = 1;
     export default {
-        name: 'carrousel',
+        name: 'banner',
         components: {
             swiper,
             swiperSlide
         },
-
+        props: ["srcList"],
         data() {
             return {
                 swiperOption: {
@@ -34,20 +33,14 @@
                   autoHeight: true,
                   pagination: '.swiper-pagination',
                   observeParents: true,
-                },
-                srcList : []
+                }
             }
-        },
-        mounted () {
-            axios.get("http://localhost:8080/swiper").then((res) => {
-                this.srcList = res.data.data.srcList; //这里没有问题
-            })
         }
   }
 </script>
 
 <style>
-    @import "../../../node_modules/swiper/dist/css/swiper.css";
+    @import "../../../../../node_modules/swiper/dist/css/swiper.css";
     .imgWrap{
         width: 100%;
         height: 0;

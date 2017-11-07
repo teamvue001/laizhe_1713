@@ -11,10 +11,10 @@
 <script>
     import { swiper, swiperSlide } from 'vue-awesome-swiper';
     import Scenic from './index-scenic.vue';
-    import axios from "axios";
 
     export default {
         name: 'scenicControl',
+        props: ['DataList'],
         components: {
             swiper,
             swiperSlide,
@@ -27,34 +27,35 @@
                     autoHeight: true,
                     pagination: '.swiper-pagination',
                     observeParents: true
-                },
-                scenicList : []
+                }
             }
         },
-        mounted () {
-            axios.get("http://localhost:8080/swiper").then((res) => {
-                const length = res.data.data.dataList.length;
+        computed : {
+            scenicList : function() {
+                let list = this.$props.DataList;
+                const length = list.length;
                 const number = Math.ceil(length/8);
-                let list = res.data.data.dataList;
+                let tempList = [];
                 for(var i=0; i<number; i++) {
                     if(i !== number-1){
-                        this.scenicList.push({
+                        tempList.push({
                             item : list.splice(0, 8),
                             id : i
                         });
                     }else{
-                        this.scenicList.push({
+                        tempList.push({
                             item : list.splice(0, list.length),
                             id : i
                         });
                     }
                 }
-            })
+                return tempList;
+            }
         }
     }
 
 </script>
 
 <style>
-    @import "../../../node_modules/swiper/dist/css/swiper.css";
+    @import "../../../../../node_modules/swiper/dist/css/swiper.css";
 </style>
