@@ -29,64 +29,12 @@
 
 <script>
 
-    import axios from "axios";
-
-
     export default {
-
+        name : "weekend",
+        props : ['weekendList'],
         data() {
             return {
-                "weekendList" : [{
-                    "id" : "1",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
-                    "productName" : "北京温泉排行榜",
-                    "productDesc" : "细数北京温泉，温暖你的冬天"
-                },{
-                    "id" : "2",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
-                    "productName" : "寻找北京的皇城范儿",
-                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
-                },{
-                    "id" : "3",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
-                    "productName" : "北京温泉排行榜",
-                    "productDesc" : "细数北京温泉，温暖你的冬天"
-                },{
-                    "id" : "4",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
-                    "productName" : "寻找北京的皇城范儿",
-                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
-                },{
-                    "id" : "5",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
-                    "productName" : "北京温泉排行榜",
-                    "productDesc" : "细数北京温泉，温暖你的冬天"
-                },{
-                    "id" : "6",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
-                    "productName" : "寻找北京的皇城范儿",
-                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
-                },{
-                    "id" : "7",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
-                    "productName" : "北京温泉排行榜",
-                    "productDesc" : "细数北京温泉，温暖你的冬天"
-                },{
-                    "id" : "8",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
-                    "productName" : "寻找北京的皇城范儿",
-                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
-                },{
-                    "id" : "9",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
-                    "productName" : "北京温泉排行榜",
-                    "productDesc" : "细数北京温泉，温暖你的冬天"
-                },{
-                    "id" : "10",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
-                    "productName" : "寻找北京的皇城范儿",
-                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
-                }]
+
 
             }
         }
@@ -96,9 +44,6 @@
 
 <style scoped>
 
-    .weekend-trip {
-        /*overflow: hidden;*/
-    }
     .mp-modtitle {
         height: .8rem;
         padding-left: .26rem;

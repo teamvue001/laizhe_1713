@@ -5,7 +5,7 @@
         <indexActivity></indexActivity>
         <indexScenicSwiper :DataList="dataList"></indexScenicSwiper>
         <indexHot :dataList="hotList"></indexHot>
-        <indexweekendTrip></indexweekendTrip>
+        <indexweekendTrip :weekendList="weekendList"></indexweekendTrip>
     </div>
 </template>
 
@@ -33,6 +33,7 @@
                 srcList : [],
                 dataList : [],
                 hotList : [],
+                weekendList : []
             }
         },
         mounted () {
@@ -40,6 +41,7 @@
                 this.srcList = res.data.data.srcList;
                 this.dataList = res.data.data.dataList;
                 this.hotList = res.data.data.hotList;
+                this.weekendList = res.data.data.weekendList;
             })
         }
     }
