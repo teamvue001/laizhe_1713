@@ -16,7 +16,7 @@
 						</span>
 					</div>
 				</div>
-				<router-link to="/particulars" class="fulllink"></router-link>
+				<router-link to="/details" class="fulllink"></router-link>
 			</div>
 		</div>
 		<div class="more">

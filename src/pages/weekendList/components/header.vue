@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="header">
-			<router-link to="/" class="header-left iconfont icon-huise"></router-link>
+			<router-link to="/weekendList" class="header-left iconfont icon-huise"></router-link>
 			<h1 class="header-title">寻找北京的皇城范儿</h1>
 		</div>		
 	</div>
@@ -21,6 +21,7 @@
 		position:absolute;
 		left:0;
 		top:0;
+		z-index:100;
 		line-height:.88rem;
 		width:.8rem;
 		height:.88rem;
