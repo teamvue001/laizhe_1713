@@ -1,13 +1,11 @@
 <template>
-	<!--<swiper :options="swiperOption" >
+	<swiper :options="swiperOption" >
 	    <swiper-slide v-for="item in swiperImg" :key="item.id">
 	    	<router-link :to="item.link">
 		        <div class="imgswiper">
 		        		<div class="swiper-top"></div>
 		        		<div class="imgswiper-show">
-		        				<img class="swiper-item" alt="img1" 
-
-:src="item.src" />
+		        				<img class="swiper-item" alt="img1" :src="item.src" />
 		        		</div>
 		        		<div class="swiper-bottom"></div>
 		        </div>
@@ -19,17 +17,7 @@
     		</div>
 	    </swiper-slide>
 	    
-	</swiper>-->
-	<div id="demo">
-  		<button v-on:click="show = !show">
-    		Toggle
-  		</button>
-  		<transition name="fade">
-    		<p v-if="show">hello</p>
-  		</transition>
-	</div>
-	
-	
+	</swiper>
 </template>
 
 <script>
@@ -48,39 +36,19 @@
                   autoHeight: true,
                   pagination: '.swiper-pagination',
                   observeParents: true,
-                },
-                "show" : true
+                }
             }
         }
-        
   }
 </script>
 
 <style scoped>
   @import "../../../../node_modules/swiper/dist/css/swiper.css";
   
-  	/*.fade-enter-active, .fade-leave-active {
-  		transition: opacity .5s
-	}
-	.fade-enter, .fade-leave-to {
-	  	opacity: 0
-	}*/
-	
-	.fade-enter{
-		color : red;
-	}
-	.fade-enter-active{
-		transition : 1s;
-		color: #F0F5F8;
-	}
-	
-	
-	
-  
-	.imgswiper{
-	  	width:100%;
-	  	height:100%;
-	}
+  .imgswiper{
+  	width:100%;
+  	height:100%;
+  }
 	.swiper-top{
 		width:100%;
 		height:3rem;
