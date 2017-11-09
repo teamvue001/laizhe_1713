@@ -4,6 +4,7 @@
 		<details-baseInfo />
 		<details-recommend />
 		<details-userComment />
+		<details-spotRecommend />
 	</div>
 </template>
 
@@ -12,12 +13,14 @@
 	import baseInfo from './components/baseInfo.vue';
 	import recommend from './components/recommend.vue';
 	import userComment from "./components/userComment.vue";
+	import spotRecommend from "./components/spotRecommend.vue";
 	export default {
 		components:{
 		  	"details-headfigure" : headfigure,
 		  	"details-baseInfo" : baseInfo,
 		  	"details-recommend" : recommend,
 		  	"details-userComment" : userComment,
+		  	"details-spotRecommend" : spotRecommend,
 		}
 	}
 </script>
