@@ -45,7 +45,9 @@
 </script>
 
 <style scoped>
-
+    .weekend-trip {
+        overflow: hidden;
+    }
     .mp-modtitle {
         height: .8rem;
         padding-left: .26rem;
@@ -99,6 +101,7 @@
         text-overflow: ellipsis;
     }
     .mp-price-notes {
+        overflow: hidden;
         margin-top: .1rem;
         padding: .14rem .1rem;
         font-size: .24rem;
