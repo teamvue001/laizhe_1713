@@ -5,6 +5,7 @@
 		<details-recommend />
 		<details-userComment />
 		<details-spotRecommend />
+		<details-footer />
 	</div>
 </template>
 
@@ -14,6 +15,7 @@
 	import recommend from './components/recommend.vue';
 	import userComment from "./components/userComment.vue";
 	import spotRecommend from "./components/spotRecommend.vue";
+	import footer from "./components/footer.vue";
 	export default {
 		components:{
 		  	"details-headfigure" : headfigure,
@@ -21,6 +23,7 @@
 		  	"details-recommend" : recommend,
 		  	"details-userComment" : userComment,
 		  	"details-spotRecommend" : spotRecommend,
+		  	"details-footer" : footer,
 		}
 	}
 </script>

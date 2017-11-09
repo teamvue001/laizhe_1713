@@ -135,7 +135,7 @@
 	}
 </script>
 
-<style>
+<style scoped>
 	.comment-container{
 		margin-top:.2rem;
 		position:relative;
