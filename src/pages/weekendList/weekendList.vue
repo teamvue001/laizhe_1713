@@ -10,6 +10,8 @@
 	import main from './components/main.vue';
 	import axios from 'axios';
 	
+	
+	
 	export default {
 		components:{
 		  	"index-header" : header,

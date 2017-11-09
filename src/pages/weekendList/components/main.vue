@@ -1,35 +1,65 @@
 <template>
-	<div>
-		<div class="main">
-			<div class="product-item" v-for="item in weekendList" :key="item.id"> 
-				<div class="productimg-wrapper">
-					<img :src="item.src" alt="" />
-				</div>
-				<div class="product-info">
-					<p class="product-name">{{item.name}}</p>
-					<p class="product-desc">{{item.desc}}</p>
-					<div class="product-price">
-						<span class="product-qunarprice">
-							¥
-							<em>{{item.price}}</em>
-							<span class="product-pricestart">起</span>
-						</span>
+	<div id="wrapper">
+		<div id="scroller">
+			<ul>
+				<div class="main">
+					<div class="product-item" v-for="item in weekendList" :key="item.id"> 
+						<div class="productimg-wrapper">
+							<img :src="item.src" alt="" />
+						</div>
+						<div class="product-info">
+							<p class="product-name">{{item.name}}</p>
+							<p class="product-desc">{{item.desc}}</p>
+							<div class="product-price">
+								<span class="product-qunarprice">
+									¥
+									<em>{{item.price}}</em>
+									<span class="product-pricestart">起</span>
+								</span>
+							</div>
+						</div>
+						<router-link to="/details" class="fulllink"></router-link>
 					</div>
 				</div>
-				<router-link to="/details" class="fulllink"></router-link>
-			</div>
-		</div>
-		<div class="more">
-			<span><img src="http://img.zcool.cn/community/017027589992c1a801219c774452bb.gif" alt="" /></span>
+				<div class="more">
+					<span><img src="http://img.zcool.cn/community/017027589992c1a801219c774452bb.gif" alt="" /></span>
+				</div>
+			</ul>
 		</div>
 	</div>
 </template>
 <script>
+//	var IScroll = require("../../../utils/iscroll-probe.js")
+	import IScroll from "../../../utils/iscroll-probe.js"
+	
 	export default {
+		mounted() {
+			this.createIscroll();
+		},
+		methods: {
+			createIscroll() {
+				this.myScroll = new IScroll('#wrapper',{probeType: 3,mouseWheel: true});
+				this.myScroll.on('scroll', this.handleScroll.bind(this));
+			},
+			handleScroll() {
+				console.log(this.myScroll.y);
+			}
+		},
+		
+		updated() {
+			this.myScroll.refresh()
+		},
+		
 		props: ['weekendList']
 	}
 </script>
 <style scoped>
+	#wrapper{
+		overflow:hidden;
+		background:#E0E0E0;
+		height:13rem;
+	}
+	 
 	.product-item{
 		background:#fff;
 		position:relative;
