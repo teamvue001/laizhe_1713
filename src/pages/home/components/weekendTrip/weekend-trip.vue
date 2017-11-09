@@ -29,9 +29,11 @@
 
 <script>
 
+    import axios from "axios";
+
+
     export default {
-        name : "weekend",
-        props : ['weekendList'],
+        props: ['weekendList'],
         data() {
             return {
 
@@ -44,6 +46,9 @@
 
 <style scoped>
 
+    .weekend-trip {
+        /*overflow: hidden;*/
+    }
     .mp-modtitle {
         height: .8rem;
         padding-left: .26rem;

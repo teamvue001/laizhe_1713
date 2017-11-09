@@ -13,7 +13,7 @@
 
 <style>
     @import "./reset.css";
-    @import "./app/iconfont/iconfont.css";
+    @import "//at.alicdn.com/t/font_463933_r39uulxk4ir1wcdi.css";
     #app {
       font-family: 'Avenir', Helvetica, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
