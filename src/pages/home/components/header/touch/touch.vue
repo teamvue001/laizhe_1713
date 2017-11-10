@@ -5,7 +5,6 @@
                 <i class="iconfont icon-huise"></i>
             </a>
             <input  data-search="keyword" type="text" autofocus="autofocus"  autocomplete="off" placeholder="输入城市或景点" class="header-input" @blur="hideCity" @focus="showCity">
-
             <div class="header-city">
             <span class="header-Choose-city">
                <em class="nav-city">搜索</em>
@@ -13,21 +12,19 @@
             </div>
         </header>
         <div class="correlationSearch" v-show="showList">
-            <div class="searchbg">
-                <div class="city-history">
+            <div class="searchbg" v-show="showhotcity">
+                <div class="city-history" >
                     <span class="history-title">搜索历史</span>
                     <span class="history-deloption">
                     <span class="text-icon mp-history-delicon"></span>
-                    <span class="history-deltext">清除</span>
+                    <span class="history-deltext" @click="deleteCiyt">清除</span>
                </span>
                 </div>
                 <div class="history-conouter">
-                    <div class="history-coninner">
-                        <div class="history-item">青海湖二郎剑</div>
-                        <div class="history-item" >青海湖二郎剑</div>
-                        <div class="history-item">青海湖二郎剑</div>
-                        <div class="history-item" >青海湖二郎剑</div>
+                    <div class="rtyryruy">
+                        <div class="history-item" v-for="item in city1">{{item}}</div>
                     </div>
+
                 </div>
             </div>
             <div >
@@ -44,12 +41,7 @@
                             <img class="ScenicImg" src="http://img1.qunarzz.com/piao/fusion/1511/da/8c3405b0e7d493f7.png" alt="">
                         </div>
                         <ul class="Scenic">
-                            <li class="scenicitem" href="">青龙湖二龙湖浩浩</li>
-                            <li class="scenicitem" href="">青龙湖</li>
-                            <li class="scenicitem" href="">青龙湖</li>
-                            <li class="scenicitem" href="">青龙湖</li>
-                            <li class="scenicitem" href="">青龙湖</li>
-                            <li class="scenicitem" href="">青龙湖</li>
+                            <li class="scenicitem" v-for="(item, index) in msg" :key="item.id" @click="clickCity">{{item.city}}</li>
                         </ul>
                     </div>
                     <div class="hotsearchCity">
@@ -57,8 +49,8 @@
                             <img class="CityImg" src="http://img1.qunarzz.com/piao/fusion/1511/e8/d46972e07444bbf7.png" alt="">
                         </div>
                         <div class="city">
-                            <a class="scenicitem" href="">青龙湖</a>
-                            <a class="scenicitem" href="">青龙湖</a>
+                            <a class="scenicitem" href="">三亚</a>
+                            <a class="scenicitem" href="">广州</a>
                         </div>
                     </div>
                 </div>
@@ -71,10 +63,19 @@
 </template>
 
 <script>
+    import axios from 'axios'
     export default {
         data(){
             return {
-                showList: false
+                showList: true,
+                showhotcity: false,
+                city:[],
+                msg: []
+            }
+        },
+        computed: {
+            city1 : function(){
+                return this.city;
             }
         },
         methods: {
@@ -82,8 +83,28 @@
                 this.showList = !this.showList
             },
             hideCity: function () {
-                this.showList = !this.showList
+//                this.showList = !this.showList
+            },
+            clickCity: function (e) {
+                    console.log(e.target.innerHTML);
+                    var hotCity = e.target.innerHTML
+                    if( this.city.indexOf(e.target.innerHTML) == -1){
+                        this.city.unshift(hotCity)
+                    }
+                    console.log(this.city.length);
+                    this.showhotcity = true
+
+
+            },
+            deleteCiyt: function () {
+                    this.city=[]
+                    this.showhotcity = false
             }
+        },
+        mounted () {
+            axios.get("../../../../../static/index.json").then((res) => {
+                this.msg = res.data.data.hotCitylist;
+            })
         }
     }
 
@@ -111,7 +132,7 @@
     .header-input{
         position: absolute;
         padding-left: .3rem;
-        width: 73%;
+        width: 68%;
         height: .6rem;
         top: .14rem;
         left: .8rem;
@@ -142,9 +163,6 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
-    .correlationSearch{
-        display: bone;
-    }
     .searchbg{
         width: 100%;
         min-height: 100%;
@@ -171,34 +189,29 @@
         color: #00afc7
     }
     .history-conouter{
-        height: 1.24rem;
-        overflow-y: auto;
         background-color: #fff;
-        border-top: 1px solid #dce5e7;
-        border-bottom: 1px solid #dce5e7;
+        width: 100%;
+        height: 1.24rem;
+        white-space:nowrap;
+        overflow-x: auto;
     }
-    .history-coninner{
-        margin-top: .3rem;
-        width: 10rem;
-        white-space: nowrap;
-        overflow-y: auto;
-    }
+
     .history-item{
-        float: left;
+        display: inline-block;
+        margin-top: .3rem;
         max-width: 2.89rem;
         height: .6rem;
+        margin-left: .2rem;
+        padding: 0 .15rem;
+        border: 1px solid #c9cccd;
+        border-radius: .06rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+        line-height: .6rem;
         font-size: .26rem;
         color: #333;
-        background-color: #fff;
-        line-height: .6rem;
-        padding: 0 .15rem;
-        text-align: center;
-        margin-left: .2rem;
-        border: 1px solid #c9cccd;
-        border-radius: 3px;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
     }
     .hot-City-head{
         height: .64rem;
@@ -221,6 +234,7 @@
     }
     .hotsearchScenic{
         position: relative;
+        width: 100%;
         left: 0;
         top: 0;
         height: 100%;
