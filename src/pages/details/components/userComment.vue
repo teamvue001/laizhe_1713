@@ -110,10 +110,12 @@
 					</div>
 				</router-link>
 			</div>
-			<div class="more-refresh">
-				查看全部评论
-				<i class="iconfont icon-you"></i>
-			</div>
+			<router-link to="/comment">
+				<div class="more-refresh">
+					查看全部评论
+					<i class="iconfont icon-you"></i>
+				</div>
+			</router-link>
 		</div>
 	</div>
 </template>

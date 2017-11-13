@@ -5,7 +5,7 @@ import Router from 'vue-router'
 import WeekendList from '../pages/weekendList/weekendList.vue'
 import Details from '../pages/details/details.vue';
 import PictureSwiper from '../pages/pictureSwiper/pictureSwiper.vue';
-
+import Comment from "../pages/comment/comment.vue";
 import Home from "../pages/home/home.vue";
 import Palace from "../pages/list/imperialPalace/imperialPalace.vue"
 
@@ -33,6 +33,15 @@ export default new Router({
       path: '/palace',
       name: 'Palace',
       component: Palace
-  	}
+  	},{
+      path: '/comment',
+      name: 'Comment',
+      component: Comment
+  	},{
+      path: '/palace',
+      name: 'Palace',
+      component: Palace
+
+    }
   ]
 })
