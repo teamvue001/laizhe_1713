@@ -19,14 +19,14 @@
                 <li class="advertPrice advertLi">
                     <p class="advertLeftName">精选温泉</p>
                     <p class="advertLeftPrice">5折开泡</p>
-                    <img class="advertLeftImg" src="./img/11.png" alt="">
+                    <img class="advertLeftImg" :src="require('../../../../../static/img/11.png')">
                 </li>
             </router-link>
             <router-link to="/home">
                 <li class="advertTicket advertLi">
                     <p class="advertRightName">金秋大促</p>
                     <p class="advertRightPrice">门票1元起</p>
-                    <img class="advertRightImg" src="./img/22.png" alt="">
+                    <img class="advertRightImg" :src="require('../../../../../static/img/22.png')">
                 </li>
             </router-link>
         </ul>

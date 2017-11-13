@@ -62,65 +62,126 @@
                 }],
         "dataList" : [{
                     "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 1
+                    "id" : 1,
+                    "name" : "景点门票",
+                    "href" : "https://www.baidu.com/"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/35/2640cab202c41b02.png",
+                    "id" : 2,
+                    "name" : "动植物园",
+                    "href" : "https://www.baidu.com/"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/45/676b67d7078abc02.png",
+                    "id" : 3,
+                    "name" : "故宫",
+                    "href" : "/palace"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/a9/ffc620dbda9b9c02.png",
+                    "id" : 4,
+                    "name" : "一日游",
+                    "href" : "https://www.baidu.com/"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/59/569d3c096e542502.png",
+                    "id" : 5,
+                    "name" : "必游榜单",
+                    "href" : "https://www.baidu.com/"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/6d/ee9eb965690ce402.png",
+                    "id" : 6,
+                    "name" : "秋色美",
+                    "href" : "https://www.baidu.com/"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/d0/e09575e66f4aa402.png",
+                    "id" : 7,
+                    "name" : "游乐场",
+                    "href" : "https://www.baidu.com/"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1710/a6/83f636bd75ae6302.png",
+                    "id" : 8,
+                    "name" : "泡温泉",
+                    "href" : "https://www.baidu.com/"
                 },{
                     "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 2
+                    "id" : 9,
+                    "name" : "景点门票",
+                    "href" : "https://www.baidu.com/"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/35/2640cab202c41b02.png",
+                    "id" : 10,
+                    "name" : "动植物园",
+                    "href" : "https://www.baidu.com/"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/45/676b67d7078abc02.png",
+                    "id" : 11,
+                    "name" : "故宫",
+                    "href" : "https://www.baidu.com/"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/a9/ffc620dbda9b9c02.png",
+                    "id" : 12,
+                    "name" : "一日游",
+                    "href" : "https://www.baidu.com/"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/59/569d3c096e542502.png",
+                    "id" : 13,
+                    "name" : "必游榜单",
+                    "href" : "https://www.baidu.com/"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/6d/ee9eb965690ce402.png",
+                    "id" : 14,
+                    "name" : "秋色美",
+                    "href" : "https://www.baidu.com/"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/d0/e09575e66f4aa402.png",
+                    "id" : 15,
+                    "name" : "游乐场",
+                    "href" : "https://www.baidu.com/"
+                },{
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1710/a6/83f636bd75ae6302.png",
+                    "id" : 16,
+                    "name" : "泡温泉",
+                    "href" : "https://www.baidu.com/"
                 },{
                     "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 3
+                    "id" : 17,
+                    "name" : "景点门票",
+                    "href" : "https://www.baidu.com/"
                 },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 4
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/35/2640cab202c41b02.png",
+                    "id" : 18,
+                    "name" : "动植物园",
+                    "href" : "https://www.baidu.com/"
                 },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 5
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/45/676b67d7078abc02.png",
+                    "id" : 19,
+                    "name" : "故宫",
+                    "href" : "https://www.baidu.com/"
                 },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 6
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/a9/ffc620dbda9b9c02.png",
+                    "id" : 20,
+                    "name" : "一日游",
+                    "href" : "https://www.baidu.com/"
                 },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 7
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/59/569d3c096e542502.png",
+                    "id" : 21,
+                    "name" : "必游榜单",
+                    "href" : "https://www.baidu.com/"
                 },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 8
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/6d/ee9eb965690ce402.png",
+                    "id" : 22,
+                    "name" : "秋色美",
+                    "href" : "https://www.baidu.com/"
                 },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 9
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/d0/e09575e66f4aa402.png",
+                    "id" : 23,
+                    "name" : "游乐场",
+                    "href" : "https://www.baidu.com/"
                 },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 10
-                },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 11
-                },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 12
-                },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 13
-                },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 14
-                },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 15
-                },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 16
-                },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 17
-                },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 18
-                },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 19
-                },{
-                    "src" : "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
-                    "id" : 20
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1710/a6/83f636bd75ae6302.png",
+                    "id" : 24,
+                    "name" : "泡温泉",
+                    "href" : "https://www.baidu.com/"
                 }],
+<<<<<<< HEAD
         "weekendList" : [{
             "id" : "1",
             "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
@@ -233,3 +294,266 @@
         ]
 	}
 }
+=======
+                "weekendList" : [{
+                    "id" : "1",
+                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+                    "productName" : "北京温泉排行榜",
+                    "productDesc" : "细数北京温泉，温暖你的冬天"
+                },{
+                    "id" : "2",
+                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+                    "productName" : "寻找北京的皇城范儿",
+                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
+                },{
+                    "id" : "3",
+                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+                    "productName" : "北京温泉排行榜",
+                    "productDesc" : "细数北京温泉，温暖你的冬天"
+                },{
+                    "id" : "4",
+                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+                    "productName" : "寻找北京的皇城范儿",
+                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
+                },{
+                    "id" : "5",
+                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+                    "productName" : "北京温泉排行榜",
+                    "productDesc" : "细数北京温泉，温暖你的冬天"
+                },{
+                    "id" : "6",
+                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+                    "productName" : "寻找北京的皇城范儿",
+                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
+                },{
+                    "id" : "7",
+                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+                    "productName" : "北京温泉排行榜",
+                    "productDesc" : "细数北京温泉，温暖你的冬天"
+                },{
+                    "id" : "8",
+                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+                    "productName" : "寻找北京的皇城范儿",
+                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
+                },{
+                    "id" : "9",
+                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+                    "productName" : "北京温泉排行榜",
+                    "productDesc" : "细数北京温泉，温暖你的冬天"
+                },{
+                    "id" : "10",
+                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+                    "productName" : "寻找北京的皇城范儿",
+                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
+                }],
+            "hereList" : [{
+                    "id" : "1",
+                    "name" : "故宫",
+                    "tittle" : "【上午场】故宫成人票凭身份证入园",
+                    "content" : "东方宫殿建筑代表，世界宫殿建筑典范",
+                    "price" : "50",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1605/fc/e31ec51c58632ff7.jpg_220x200_7dba91a5.jpg"
+                },{
+                    "id" : "2",
+                    "name" : "故宫",
+                    "tittle" : "【上午场】故宫成人票凭身份证入园",
+                    "content" : "东方宫殿建筑代表，世界宫殿建筑典范",
+                    "price" : "60",
+                    "src" : "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_220x200_0888af6d.jpg"
+                },{
+                    "id" : "3",
+                    "name" : "故宫",
+                    "tittle" : "【上午场】故宫成人票凭身份证入园",
+                    "content" : "东方宫殿建筑代表，世界宫殿建筑典范",
+                    "price" : "70",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1607/41/5837c598ef45b8b6.png_220x200_55cbc9f8.png"
+                },{
+                    "id" : "4",
+                    "name" : "故宫",
+                    "tittle" : "【上午场】故宫成人票凭身份证入园",
+                    "content" : "东方宫殿建筑代表，世界宫殿建筑典范",
+                    "price" : "80",
+                    "src" : "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_220x200_0888af6d.jpg"
+                },{
+                    "id" : "5",
+                    "name" : "故宫",
+                    "tittle" : "【上午场】故宫成人票凭身份证入园",
+                    "content" : "东方宫殿建筑代表，世界宫殿建筑典范",
+                    "price" : "90",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1707/93/e46fb508820f3d02.jpg_220x200_063ce9a0.jpg"
+                }],
+            "waitList" : [{
+                    "id" : "1",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1607/41/5837c598ef45b8b6.png_290x180_d5ab7067.png",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "2",
+                    "src" : "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_290x180_aad89f75.jpg",
+                    "price" : "452",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "3",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1605/fc/e31ec51c58632ff7.jpg_290x180_a0b9afd2.jpg",
+                    "price" : "345",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "4",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1607/bc/048899bca45a62a7.jpg_290x180_e3c39b40.jpg",
+                    "price" : "34",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "5",
+                    "src" : "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_290x180_aad89f75.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "6",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1607/56/7e27875077bb51b6.jpg_290x180_fa225081.jpg",
+                    "price" : "34",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "7",
+                    "src" : "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_290x180_aad89f75.jpg",
+                    "price" : "65",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "8",
+                    "src" : "http://img1.qunarzz.com/sight/p0/1505/d2/d274c92de14c93da.water.jpg_290x180_c64f61dc.jpg",
+                    "price" : "50",
+                    "name" : "颐和园",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                }],
+            "waitHotList" : [{
+                    "id" : "1",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1607/35/8748779f9ad1c0b6.jpg_290x180_038bc30f.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "2",
+                    "src" : "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_290x180_aad89f75.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "3",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1607/3e/08f4f645b997d8b6.jpg_290x180_9c48f1fa.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "4",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1607/3e/08f4f645b997d8b6.jpg_290x180_9c48f1fa.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "5",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1607/bc/048899bca45a62a7.jpg_290x180_e3c39b40.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "6",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1607/bc/048899bca45a62a7.jpg_290x180_e3c39b40.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "7",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1607/41/5837c598ef45b8b6.png_290x180_d5ab7067.png",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "8",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1607/41/5837c598ef45b8b6.png_290x180_d5ab7067.png",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                }],
+            "waitAroundList" : [{
+                    "id" : "1",
+                    "src" : "http://img1.qunarzz.com/sight/p0/1505/d2/d274c92de14c93da.water.jpg_290x180_c64f61dc.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "2",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1707/48/4b3827d68eae2d02.jpg_290x180_6ae6280c.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "3",
+                    "src" : "http://img1.qunarzz.com/sight/p0/1603/85/85c883189bf7293390.water.jpg_290x180_fca0a68d.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "4",
+                    "src" : "http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_290x180_9d3bf220.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "5",
+                    "src" : "http://img1.qunarzz.com/sight/p0/1505/d2/d274c92de14c93da.water.jpg_290x180_c64f61dc.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "6",
+                    "src" : "http://img1.qunarzz.com/piao/fusion/1707/48/4b3827d68eae2d02.jpg_290x180_6ae6280c.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "7",
+                    "src" : "http://img1.qunarzz.com/sight/p0/1603/85/85c883189bf7293390.water.jpg_290x180_fca0a68d.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                },{
+                    "id" : "8",
+                    "src" : "http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_290x180_9d3bf220.jpg",
+                    "price" : "234",
+                    "name" : "故宫",
+                    "text" : "【下午场】故宫学生票凭身份证入园",
+                    "path" : "/"
+                }]
+
+            }
+        }
+>>>>>>> master
