@@ -24,8 +24,6 @@
             axios.get("/static/index.json").then((res) => {
                this.comment = res.data.data.comment;
                this.commentList = res.data.data.commentList;
-               console.log(this.commentList)
-                console.log(this.comment)
             })
         }
     }

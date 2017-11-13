@@ -1,7 +1,9 @@
 <template>
     <div>
     	<div class="mp-header">
-    		<a mp-role="left" class="mp-header-left icon-fanhui iconfont"></a>
+            <router-link to="/">
+    		     <a mp-role="left" class="mp-header-left icon-fanhui iconfont"></a>
+            </router-link>
     		<h1 mp-role="title" class="mp-header-title">评论</h1>
     		<a class="mp-header-right  icon-comment-pen iconfont" mp-role="right" href=""></a>
     	</div>

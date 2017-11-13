@@ -181,7 +181,6 @@
                     "name" : "泡温泉",
                     "href" : "https://www.baidu.com/"
                 }],
-<<<<<<< HEAD
         "weekendList" : [{
             "id" : "1",
             "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
@@ -290,63 +289,8 @@
             "outer" :"靠谱  服务好  好评",
             "words":"来北京怎么能不来逛故宫呢ヾ(✿ﾟ▽ﾟ)ノ跟着解说器可以好好逛一下午，存行李也很方便，进门存行李，从另一头出去的时候，行李也早早送到那了 ，五点闭馆，四点半的时候差不多就要清理行人出去了。下次还得去一趟。" 
 
-         }
-        ]
-	}
-}
-=======
-                "weekendList" : [{
-                    "id" : "1",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
-                    "productName" : "北京温泉排行榜",
-                    "productDesc" : "细数北京温泉，温暖你的冬天"
-                },{
-                    "id" : "2",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
-                    "productName" : "寻找北京的皇城范儿",
-                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
-                },{
-                    "id" : "3",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
-                    "productName" : "北京温泉排行榜",
-                    "productDesc" : "细数北京温泉，温暖你的冬天"
-                },{
-                    "id" : "4",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
-                    "productName" : "寻找北京的皇城范儿",
-                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
-                },{
-                    "id" : "5",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
-                    "productName" : "北京温泉排行榜",
-                    "productDesc" : "细数北京温泉，温暖你的冬天"
-                },{
-                    "id" : "6",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
-                    "productName" : "寻找北京的皇城范儿",
-                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
-                },{
-                    "id" : "7",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
-                    "productName" : "北京温泉排行榜",
-                    "productDesc" : "细数北京温泉，温暖你的冬天"
-                },{
-                    "id" : "8",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
-                    "productName" : "寻找北京的皇城范儿",
-                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
-                },{
-                    "id" : "9",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
-                    "productName" : "北京温泉排行榜",
-                    "productDesc" : "细数北京温泉，温暖你的冬天"
-                },{
-                    "id" : "10",
-                    "imgSrc" : "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
-                    "productName" : "寻找北京的皇城范儿",
-                    "productDesc" : "数百年的宫廷庙宇，至今依旧威严霸气"
-                }],
-            "hereList" : [{
+         }],
+         "hereList" : [{
                     "id" : "1",
                     "name" : "故宫",
                     "tittle" : "【上午场】故宫成人票凭身份证入园",
@@ -554,6 +498,5 @@
                     "path" : "/"
                 }]
 
-            }
         }
->>>>>>> master
+}         

@@ -12,17 +12,17 @@ export default new Router({
           name: 'Home',
           component: Home
       },
-<<<<<<< HEAD
+
        {
           path: '/comment',
           name: 'Comment',
-          component: Comment
-=======
+          component: Comment},
+
       {
           path: '/palace',
           name: 'Palace',
           component: Palace
->>>>>>> master
+
       }
   ]
 })
