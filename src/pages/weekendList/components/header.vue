@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="header">
-			<router-link to="/weekendList" class="header-left iconfont icon-huise"></router-link>
+			<router-link to="/" class="header-left iconfont icon-huise"></router-link>
 			<h1 class="header-title">寻找北京的皇城范儿</h1>
 		</div>		
 	</div>

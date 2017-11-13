@@ -29,7 +29,7 @@
     }
 </script>
 
-<style>
+<style scoped>
     .hot-title{
         padding-left: .26rem;
         background: #f5f5f5;

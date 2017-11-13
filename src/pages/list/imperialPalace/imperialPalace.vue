@@ -43,7 +43,7 @@
     }
 </script>
 
-<style>
+<style scoped>
     #place{
         text-align: start;
         background-color: #fbdea3;

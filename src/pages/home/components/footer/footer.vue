@@ -116,7 +116,7 @@
 	  
 	}
 </script>
-<style>
+<style scoped>
 	.qn_footer {
    		 background: #f3f3f3;
 	}
