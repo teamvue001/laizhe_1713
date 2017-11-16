@@ -3,10 +3,12 @@
         <a class="header-back">
             <i class="iconfont icon-huise"></i>
         </a>
-        <div class="header-input">
-            <i class="iconfont icon-sousuo"></i>
-            <span class="header-where">输入城市/景点/游玩主题</span>
-        </div>
+        <router-link to="/touch">
+            <div class="header-input">
+                <i class="iconfont icon-sousuo"></i>
+                <span class="header-where">输入城市/景点/游玩主题</span>
+            </div>
+        </router-link>
         <div class="header-city">
             <span class="header-Choose-city">
                <em class="nav-city">北京</em>
